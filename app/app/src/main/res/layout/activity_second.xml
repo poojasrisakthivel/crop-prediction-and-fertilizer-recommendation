@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f4"
+    tools:context=".second">
+
+    <TextView
+        android:id="@+id/nitrogen"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="217dp"
+        android:layout_marginBottom="638dp"
+        android:text="NITROGEN"
+        android:textColor="@color/black"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/phorphorus"
+        android:layout_width="318dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="481dp"
+        android:text="PHORPHORUS"
+        android:textColor="@color/black"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/potassium"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="369dp"
+        android:text="POTASSIUM"
+        android:textColor="@color/black"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txt_potassium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="180dp"
+        android:layout_marginBottom="310dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/nextinput"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="123dp"
+        android:text="NEXT"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:backgroundTint="#000000" />
+
+    <EditText
+        android:id="@+id/txt_nitrogen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="180dp"
+        android:layout_marginBottom="584dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_phorphorus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="442dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+</RelativeLayout>
